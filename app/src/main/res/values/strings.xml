@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Atividades Mario</string>
+
+    <!-- Comum -->
+    <string name="btn_calcular">Calcular</string>
+    <string name="label_calcular">Calcular:</string>
+    <string name="erro_campo_vazio">Preencha o campo.</string>
+    <string name="erro_valor_invalido">Valor inválido.</string>
+    <string name="erro_nenhuma_opcao">Selecione ao menos uma opção.</string>
+    <string name="erro_selecione_uma_opcao">Selecione exatamente uma opção.</string>
+    <string name="erro_preencha_todos">Preencha todos os campos.</string>
+    <string name="erro_selecione_opcao">Selecione uma opção.</string>
+    <string name="erro_quantidade_invalida">Quantidade inválida.</string>
+    <string name="erro_litros_invalidos">Quantidade de litros inválida.</string>
+    <string name="hint_quantidade">Quantidade</string>
+    <string name="hint_litros">Litros</string>
+    <string name="subtitulo_main">Selecione uma atividade</string>
+
+    <!-- Aula 08 - Ex1: Trigonometria -->
+    <string name="titulo_trigonometria">Trigonometria</string>
+    <string name="hint_angulo">Ângulo (graus)</string>
+    <string name="cb_seno">Seno</string>
+    <string name="cb_cosseno">Cosseno</string>
+    <string name="cb_tangente">Tangente</string>
+    <string name="resultado_seno">Seno: %1$.6f</string>
+    <string name="resultado_cosseno">Cosseno: %1$.6f</string>
+    <string name="resultado_tangente">Tangente: %1$.6f</string>
+
+    <!-- Aula 08 - Ex2: Movimento Uniforme -->
+    <string name="titulo_movimento_uniforme">Movimento Uniforme</string>
+    <string name="hint_distancia">Distância (m)</string>
+    <string name="hint_velocidade">Velocidade (m/s)</string>
+    <string name="hint_tempo">Tempo (s)</string>
+    <string name="cb_distancia">Distância</string>
+    <string name="cb_velocidade">Velocidade</string>
+    <string name="cb_tempo">Tempo</string>
+    <string name="erro_preencha_v_t">Preencha Velocidade e Tempo.</string>
+    <string name="erro_preencha_d_t">Preencha Distância e Tempo (Tempo ≠ 0).</string>
+    <string name="erro_preencha_d_v">Preencha Distância e Velocidade (Velocidade ≠ 0).</string>
+    <string name="resultado_distancia">Distância: %1$.2f m</string>
+    <string name="resultado_velocidade">Velocidade: %1$.2f m/s</string>
+    <string name="resultado_tempo">Tempo: %1$.2f s</string>
+
+    <!-- Aula 08 - Ex3: Energia Mecânica -->
+    <string name="titulo_energia_mecanica">Energia Mecânica</string>
+    <string name="hint_massa">Massa (kg)</string>
+    <string name="hint_altura">Altura (m)</string>
+    <string name="cb_energia_potencial">Energia Potencial (Ep)</string>
+    <string name="cb_energia_cinetica">Energia Cinética (Ec)</string>
+    <string name="cb_energia_mecanica">Energia Mecânica (Em)</string>
+    <string name="resultado_ep">Ep = %1$.2f J</string>
+    <string name="resultado_ec">Ec = %1$.2f J</string>
+    <string name="resultado_em">Em = %1$.2f J</string>
+
+    <!-- Aula 09 - Ex1: Geometria de Áreas -->
+    <string name="titulo_geometria_areas">Geometria de Áreas</string>
+    <string name="rb_circulo">Círculo</string>
+    <string name="rb_retangulo">Retângulo</string>
+    <string name="rb_triangulo">Triângulo</string>
+    <string name="hint_raio">Raio (m)</string>
+    <string name="hint_base">Base (m)</string>
+    <string name="erro_selecione_figura">Selecione uma figura.</string>
+    <string name="area_format">Área: %1$.2f unid²</string>
+
+    <!-- Aula 09 - Ex2: Lei de Ohm -->
+    <string name="titulo_lei_ohm">Lei de Ohm</string>
+    <string name="rb_tensao">Tensão (V)</string>
+    <string name="rb_corrente">Corrente (I)</string>
+    <string name="rb_resistencia">Resistência (R)</string>
+    <string name="hint_tensao_v">Tensão (V)</string>
+    <string name="hint_corrente_a">Corrente (A)</string>
+    <string name="hint_resistencia_ohm">Resistência (Ω)</string>
+    <string name="resultado_tensao">Tensão: %1$.2f V</string>
+    <string name="resultado_corrente">Corrente: %1$.2f A</string>
+    <string name="resultado_resistencia">Resistência: %1$.2f Ω</string>
+
+    <!-- Aula 10 - Spinner -->
+    <string name="titulo_produtos">Produtos</string>
+    <string name="titulo_lanchonete">Lanchonete</string>
+    <string name="titulo_papelaria">Papelaria</string>
+    <string name="titulo_combustivel">Combustível</string>
+    <string name="resultado_total">Total: R$ %1$.2f</string>
+    <string name="resultado_subtotal">Subtotal: R$ %1$.2f</string>
+    <string name="resultado_desconto">Desconto (5%%): - R$ %1$.2f</string>
+    <string name="resultado_taxa">Taxa (10%%): + R$ %1$.2f</string>
+
+    <!-- Arrays Spinners -->
+    <string-array name="produtos_array">
+        <item>Produto 1</item>
+        <item>Produto 2</item>
+        <item>Produto 3</item>
+    </string-array>
+
+    <string-array name="lanchonete_array">
+        <item>Hambúrguer</item>
+        <item>Pizza</item>
+        <item>Salada</item>
+    </string-array>
+
+    <string-array name="papelaria_array">
+        <item>Caderno</item>
+        <item>Caneta</item>
+        <item>Marcador</item>
+    </string-array>
+
+    <string-array name="combustivel_array">
+        <item>Gasolina</item>
+        <item>Etanol</item>
+        <item>Diesel</item>
+    </string-array>
+
+</resources>

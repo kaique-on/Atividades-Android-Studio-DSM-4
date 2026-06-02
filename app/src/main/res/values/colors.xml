@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaria">#1565C0</color>
+    <color name="fundo">#F0F4F8</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="branco_suave">#C9D9F0</color>
+    <color name="texto_principal">#1A1A2E</color>
+    <color name="texto_secundario">#6B7280</color>
+    <color name="borda">#E2E8F0</color>
+</resources>

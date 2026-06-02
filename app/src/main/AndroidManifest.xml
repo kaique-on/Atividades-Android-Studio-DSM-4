@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atividadesmario">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AtividadesMario">
+
+        <!-- Aula 08 -->
+        <activity
+            android:name=".aula08.ex1_trigonometria.TrigonometriaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula08.ex2_movimento_uniforme.MovimentoUniformeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula08.ex3_energia_mecanica.EnergiaMecanicaActivity"
+            android:exported="false" />
+
+        <!-- Aula 09 -->
+        <activity
+            android:name=".aula09.ex1_geometria_areas.GeometriaAreasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula09.ex2_lei_ohm.LeiOhmActivity"
+            android:exported="false" />
+
+        <!-- Aula 10 -->
+        <activity
+            android:name=".aula10.ex1_produtos.ProdutosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula10.ex2_lanchonete.LanchoneteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula10.ex3_papelaria.PapelariaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula10.ex4_combustivel.CombustivelActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
