@@ -43,6 +43,20 @@
             android:name=".aula10.ex4_combustivel.CombustivelActivity"
             android:exported="false" />
 
+        <!-- Aula 11 -->
+        <activity
+            android:name=".aula11.ex5_estados.EstadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula11.ex5_estados.EstadoDetalheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula11.ex6_disciplinas.DisciplinasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aula11.ex6_disciplinas.DisciplinaDetalheActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
